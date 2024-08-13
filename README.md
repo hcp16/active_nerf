@@ -6,11 +6,11 @@ This repository contains the official implementation (in Pytorch) for "ActiveNeR
 
 
 ## Contents
-1. [Introduction](#Introduction)
-2. [Installation](#Installation)
-3. [Data](#Data)
-4. [Training](#Training)
-5. [Depth Fusion](#Depth)
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Data](#data)
+4. [Training](#training)
+5. [Depth Fusion](#depth-fusion)
 
 ## Introduction
 NeRFs have achieved incredible success in novel view synthesis. However, the accuracy of the implicit geometry is unsatisfactory because the passive static environmental illumination has low spatial frequency and cannot provide enough information for accurate geometry reconstruction. In this work, we propose ActiveNeRF, a 3D geometry reconstruction framework, which improves the geometry quality of NeRF by actively projecting patterns of high spatial frequency onto the scene using a projector which has a constant relative pose to the camera. We design a learnable active pattern rendering pipeline which jointly learns the scene geometry and the active pattern. We find that, by adding the active pattern and imposing its consistency across different views, our proposed method outperforms state of the art geometry reconstruction methods qualitatively and quantitatively in both simulation and real experiments. 
