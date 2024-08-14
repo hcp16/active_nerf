@@ -1,5 +1,5 @@
 # ActiveNeRF: Learning Accurate 3D Geometry by Active Pattern Projection
-### [[Paper]]()
+### [[Paper]](https://arxiv.org/abs/2408.06592)
 This repository contains the official implementation (in Pytorch) for "ActiveNeRF: Learning Accurate 3D Geometry by Active Pattern Projection" . The part of nerf is based on https://github.com/krrish94/nerf-pytorch. 
 
 <!-- ### Citation -->
